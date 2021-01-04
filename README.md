@@ -3,9 +3,11 @@
 
 ### File Structure
 ##### Local_Mode_Architecture: Describes the local mode architecture, different ways to use local mode and memory allocation
+            Tip: To try different local mode settings, changes should be made in conf file(located in spark folder), before running jupyter kernel
 ##### File_formats: Describes the avaliable options in spark to read different file formats and evaluation of each option and file format
+            Tip: There are few external packages for data formats, avaliable as jar files in Maven repository.Should be downloaded and saved in jars folder(located in spark folder), before running jupyter kernel
 ##### Standalone_Mode_Architecture: Describes setting up spark cluster in standalone mode in single machine, setting up environment and memory allocation
-
+           Tip: Configuration should be set up in spark-env.cmd(Windows) and Masters-slaves are initiated by powershell commands(powershell_command.psi) before running jupyter kernel
 ### Tools and Environment
 ##### spark-3.0.1-bin-hadoop2.7, pyspark library, Jupyter Notebook, Windows 10
 
